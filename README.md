@@ -1,0 +1,1 @@
+This is the very first python project in alx. it is called 0x00. Python - Hello, World. This project is to help students to know how to write program using python programming language which is also a low-level language just like C.

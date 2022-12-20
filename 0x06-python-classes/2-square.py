@@ -1,18 +1,23 @@
 #!/usr/bin/python3
-
-"""Define a class Square."""
+"""
+A module that sets size of square as private field
+"""
 
 
 class Square:
-    """Represent a square."""
+    """Square class
+    private instance field(s) : size
+    methods: __init__
+    """
 
     def __init__(self, size=0):
-        """Initialize a new Square.
+        """initializes the class
         Args:
-            size (int): The size of the new square.
+            size (int, optional): size of square. Defaults to 0.
         """
-        if not isinstance(size, int):
+        if (type(size) is not int):
             raise TypeError("size must be an integer")
-        elif size < 0:
+        elif (size < 0):
             raise ValueError("size must be >= 0")
-        self.__size = 
+        else:
+            self.__size = size 
